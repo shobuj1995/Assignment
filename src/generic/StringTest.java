@@ -1,0 +1,13 @@
+package generic;
+
+public class StringTest {
+    String string;
+
+    public StringTest(String string) {
+        this.string=string;
+
+    }
+    public String getString(){
+        return this.string;
+    }
+}
